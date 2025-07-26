@@ -1,12 +1,58 @@
-# React + Vite
+# 🛒 Product Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple product cart system built with **React.js** and **Tailwind CSS** where users can browse products and add them to the cart. The cart data is saved in **localStorage**, so it stays even after refreshing the page.
 
-Currently, two official plugins are available:
+🚀 Live Demo: [https://product-cart-khadizacoder.netlify.app](https://product-cart-khadizacoder.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 GitHub Repository: [Product-cart](https://github.com/khadizacoder/Product-cart)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshot
+
+![Product Cart Screenshot](./screenshot.png)
+
+> 📝 Tip: Make sure you have a `screenshot.png` file in the root folder of your repo. You can also upload it through GitHub.
+
+---
+
+## ✨ Features
+
+- View product list with name, image, price, and description
+- Add product to cart with one click
+- Cart preview with item count and total products
+- Cart data saved in **localStorage**
+- Responsive design using **Tailwind CSS**
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- Local Storage API
+- Vite (for project bundling)
+
+---
+
+## 📁 Folder Structure
+
+src/
+│
+├── components/
+│ ├── Product.jsx
+│ └── Products.jsx
+│
+├── App.jsx
+└── main.jsx
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 📌 Clone this repository
+
+```bash
+git clone https://github.com/khadizacoder/Product-cart.git
+cd Product-cart
